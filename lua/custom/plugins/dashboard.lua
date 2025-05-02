@@ -49,6 +49,7 @@ local dash = {
           { action = "Telescope live_grep",                                      desc = " Find Text",       icon = " ", key = "g" },
           { action = "Lazy",                                                     desc = " Lazy",            icon = "󰒲 ", key = "l" },
           { action = "Oil",                                                      desc = " Oil",             icon = "󰾅 ", key = "o" },
+          { action = "NeovimProjectDiscover",                                    desc = " Projects",        icon = " ", key = "p" },
           { action = "qa",                                                       desc = " Quit",            icon = " ", key = "q" },
         },
           footer = function()
