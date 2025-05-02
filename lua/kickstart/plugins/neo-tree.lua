@@ -21,5 +21,8 @@ return {
         },
       },
     },
+    window = {
+      position = 'right',
+    },
   },
 }
