@@ -1,4 +1,4 @@
-local lg = {
+return {
   -- nvim v0.8.0
   {
     'kdheepak/lazygit.nvim',
@@ -20,5 +20,3 @@ local lg = {
     },
   },
 }
-
-return lg

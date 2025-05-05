@@ -1,4 +1,4 @@
-local dash = {
+return {
   {
     'nvimdev/dashboard-nvim',
     event = 'VimEnter',
@@ -69,5 +69,3 @@ local dash = {
     end,
   },
 }
-
-return dash

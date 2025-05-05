@@ -1,4 +1,4 @@
-local oil = {
+return {
   {
     'stevearc/oil.nvim',
     ---@module 'oil'
@@ -194,5 +194,3 @@ local oil = {
     end,
   },
 }
-
-return oil

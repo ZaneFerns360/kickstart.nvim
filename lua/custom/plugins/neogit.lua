@@ -1,4 +1,4 @@
-local neogit = {
+return {
   {
     'NeogitOrg/neogit',
     dependencies = {
@@ -13,4 +13,3 @@ local neogit = {
     config = true,
   },
 }
-return neogit

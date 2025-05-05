@@ -1,5 +1,4 @@
-local navigation = {
-
+return {
   'stevearc/dressing.nvim',
   {
     'max397574/better-escape.nvim',
@@ -41,5 +40,3 @@ local navigation = {
     },
   },
 }
-
-return navigation

@@ -1,4 +1,4 @@
-local transparent = {
+return {
   {
     'xiyaowong/transparent.nvim',
     lazy = false, -- make sure we load this during startup if it is your main colorscheme
@@ -50,5 +50,3 @@ local transparent = {
     end,
   },
 }
-
-return transparent

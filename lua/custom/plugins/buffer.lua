@@ -1,4 +1,4 @@
-local buffers = {
+return {
   {
     'akinsho/bufferline.nvim',
     event = 'VeryLazy',
@@ -44,5 +44,3 @@ local buffers = {
     end,
   },
 }
-
-return buffers

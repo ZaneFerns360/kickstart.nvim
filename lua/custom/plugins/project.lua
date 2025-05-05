@@ -1,4 +1,4 @@
-local projects = {
+return {
   {
     'coffebar/neovim-project',
     opts = {
@@ -27,5 +27,3 @@ local projects = {
     priority = 100,
   },
 }
-
-return projects
