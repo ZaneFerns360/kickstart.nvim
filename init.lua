@@ -893,8 +893,8 @@ require('lazy').setup({
         -- <c-k>: Toggle signature help
         --
         -- See :h blink-cmp-config-keymap for defining your own keymap
-        preset = 'enter',
-        ['<CR>'] = { 'accept', 'fallback' },
+        preset = 'default',
+        ['<S-CR>'] = { 'accept', 'fallback' },
         ['<C-k>'] = { 'show', 'show_documentation', 'hide_documentation' },
         ['<Tab>'] = { 'select_next', 'snippet_forward', 'fallback' },
         ['<S-Tab>'] = { 'select_prev', 'snippet_backward', 'fallback' },
@@ -912,7 +912,7 @@ require('lazy').setup({
       completion = {
         -- By default, you may press `<c-space>` to show the documentation.
         -- Optionally, set `auto_show = true` to show the documentation after a delay.
-        documentation = { auto_show = false, auto_show_delay_ms = 500 },
+        documentation = { auto_show = true, auto_show_delay_ms = 2000 },
         accept = { auto_brackets = { enabled = true } },
       },
 
