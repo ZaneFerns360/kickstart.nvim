@@ -1,0 +1,9 @@
+vim.o.linebreak = true
+vim.o.expandtab = true
+vim.o.undofile = true
+vim.o.undolevels = 10000
+vim.o.termguicolors = true
+vim.o.lazyredraw = true
+vim.o.hidden = true
+vim.o.smoothscroll = true
+vim.opt.wildmode = 'longest:full,full'

@@ -8,6 +8,8 @@ return {
     event = 'VeryLazy',
     dependencies = {
       { 'nvim-lua/plenary.nvim' },
+      { 'nvim-neorg/lua-utils.nvim' },
+      { 'pysan3/pathlib.nvim' },
     },
     opts = {
       load = {

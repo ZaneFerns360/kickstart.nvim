@@ -5,4 +5,7 @@ return {
   vim.cmd 'command! Q q',
   vim.cmd 'command! WQ wq',
   vim.keymap.set('n', 'rr', ':%d|0pu +<CR>', { noremap = true, silent = true }),
+  vim.keymap.set('n', 'x', '"_x', { noremap = true, silent = true }),
+  vim.keymap.set('n', 'd', '"_d', { noremap = true, silent = true }),
+  vim.keymap.set('v', 'd', '"_d', { noremap = true, silent = true }),
 }
